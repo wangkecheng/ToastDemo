@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0319D4C920FB7E2300BD2FA5 /* bg_zhlyjg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0319D4C820FB7E2300BD2FA5 /* bg_zhlyjg.png */; };
 		0326591B20F8DA3D00553530 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326591A20F8DA3D00553530 /* AppDelegate.swift */; };
 		0326591D20F8DA3D00553530 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326591C20F8DA3D00553530 /* ViewController.swift */; };
 		0326592020F8DA3D00553530 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0326591E20F8DA3D00553530 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		0326592520F8DA3D00553530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0326592320F8DA3D00553530 /* LaunchScreen.storyboard */; };
 		0326593020F8DA3D00553530 /* ToastDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326592F20F8DA3D00553530 /* ToastDemoTests.swift */; };
 		0326593B20F8DA3D00553530 /* ToastDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326593A20F8DA3D00553530 /* ToastDemoUITests.swift */; };
+		0326594920F8DAC900553530 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0326594820F8DAC900553530 /* Toast.swift */; };
+		034A144320FDC5FA0099F0B5 /* HQActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034A144220FDC5FA0099F0B5 /* HQActionSheet.swift */; };
+		035AEBD620FF1F2100A0D481 /* HQPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBD520FF1F2100A0D481 /* HQPageControl.swift */; };
+		035AEBD820FF29B200A0D481 /* HQGuideVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035AEBD720FF29B200A0D481 /* HQGuideVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0319D4C820FB7E2300BD2FA5 /* bg_zhlyjg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_zhlyjg.png; sourceTree = "<group>"; };
 		0326591720F8DA3D00553530 /* ToastDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToastDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0326591A20F8DA3D00553530 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0326591C20F8DA3D00553530 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		0326593620F8DA3D00553530 /* ToastDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToastDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0326593A20F8DA3D00553530 /* ToastDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastDemoUITests.swift; sourceTree = "<group>"; };
 		0326593C20F8DA3D00553530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0326594820F8DAC900553530 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		034A144220FDC5FA0099F0B5 /* HQActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HQActionSheet.swift; sourceTree = "<group>"; };
+		035AEBD520FF1F2100A0D481 /* HQPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQPageControl.swift; sourceTree = "<group>"; };
+		035AEBD720FF29B200A0D481 /* HQGuideVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQGuideVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 			children = (
 				0326591A20F8DA3D00553530 /* AppDelegate.swift */,
 				0326591C20F8DA3D00553530 /* ViewController.swift */,
+				0326594820F8DAC900553530 /* Toast.swift */,
+				034A144220FDC5FA0099F0B5 /* HQActionSheet.swift */,
+				035AEBD520FF1F2100A0D481 /* HQPageControl.swift */,
+				035AEBD720FF29B200A0D481 /* HQGuideVC.swift */,
 				0326591E20F8DA3D00553530 /* Main.storyboard */,
 				0326592120F8DA3D00553530 /* Assets.xcassets */,
 				0326592320F8DA3D00553530 /* LaunchScreen.storyboard */,
+				0319D4C820FB7E2300BD2FA5 /* bg_zhlyjg.png */,
 				0326592620F8DA3D00553530 /* Info.plist */,
 			);
 			path = ToastDemo;
@@ -232,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0319D4C920FB7E2300BD2FA5 /* bg_zhlyjg.png in Resources */,
 				0326592520F8DA3D00553530 /* LaunchScreen.storyboard in Resources */,
 				0326592220F8DA3D00553530 /* Assets.xcassets in Resources */,
 				0326592020F8DA3D00553530 /* Main.storyboard in Resources */,
@@ -259,7 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035AEBD620FF1F2100A0D481 /* HQPageControl.swift in Sources */,
 				0326591D20F8DA3D00553530 /* ViewController.swift in Sources */,
+				0326594920F8DAC900553530 /* Toast.swift in Sources */,
+				034A144320FDC5FA0099F0B5 /* HQActionSheet.swift in Sources */,
+				035AEBD820FF29B200A0D481 /* HQGuideVC.swift in Sources */,
 				0326591B20F8DA3D00553530 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
